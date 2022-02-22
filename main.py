@@ -178,6 +178,7 @@ class DelTab:
 def main():
     root = tk.Tk()
     app = MainFrame(root)
+    root.title("Launcher")
     root.config(menu=app.menu)
     root.mainloop()
 
